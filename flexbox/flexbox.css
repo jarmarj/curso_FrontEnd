@@ -19,8 +19,8 @@ body {
     flex-wrap: wrap;
     /*flex-flow:row wrap;*/
     justify-content: space-between;
-    align-items: center;
-    /*align-content: space-around;*/
+    /*align-items: center;*/
+    align-content: center;
 }
 
 .caja {
@@ -32,4 +32,9 @@ body {
     padding: 20px;
     font-size: 40px;
     color: #fff;
+    /*order: 1;*/
+    flex-grow: 1;
 }
+/*.dos{
+    order: 1;
+}*/
